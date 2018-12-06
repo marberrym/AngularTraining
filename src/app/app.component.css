@@ -8,9 +8,26 @@
     background-color: black;
     border-radius: 180px;
     border: 5px solid rgb(0, 141, 75);
+    width: 100px;
+    height: 100px;
 }
 
 .frameworkLogo:hover {
-    border-color: whitesmoke;
+    border-color: rgb(155, 155, 155);
     background-color: rgba(0, 0, 0, 0.363);
+    box-shadow: 0px 0px 100px whitesmoke;
+}
+
+@media screen and (min-width: 600px) {
+    .frameworkLogo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .frameworkLogo {
+        width: 300px;
+        height: 300px;
+    }
 }
